@@ -1,3 +1,8 @@
+//open newbutton when clicking the social buttons
+function newWindow() {
+	var newWindow = window.open("", "", "width=600px, height=500px");
+}
+
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
 if ($(".navbar").offset().top > 50) {
