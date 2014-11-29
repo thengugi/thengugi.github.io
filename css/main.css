@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto&subset=cyrillic-ext,latin);
 *{
 	margin: 0;
 	padding: 0;
@@ -238,6 +239,7 @@ a:focus {
 	text-align: center;
 	color: #333;
 	margin-top: 75px;
+	font-family: sans-serif;
 }
 
 hr.star-light,
@@ -286,6 +288,13 @@ background-color: #fff;
 .succeess {
 	margin-top: 65px;
 }
+.pitch {
+	font-size: 18px;
+	color: #222;
+	font-family: 'PT Sans sNarrow', sans-serif;
+	font-weight: normal;
+}
+
 
 #portfolio {
 	padding-top: 70px;
@@ -418,7 +427,10 @@ form .row:first-child .floating-label-form-group {
 border-top: 1px solid #eee;
 }
 footer {
-color: #fff;
+	color: #fff;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 18px;
+	font-family: 'PT Sans Narrow', sans-serif;
 }
 footer h3 {
 margin-bottom: 30px;
